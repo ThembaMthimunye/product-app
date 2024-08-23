@@ -1,21 +1,19 @@
-
-import React from 'react';
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <footer className="bg-white-800 text-black ">
+        <footer className="bg-white-800 text-black p-8 ">
             <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row md:justify-between">
-                    
+
                     <div className="mb-6 md:mb-0">
                         <h1 className="text-2xl font-bold mb-2 text-orange-500">Nike </h1>
                         <p className="text-gray-400">
-                        ike uses various cushioning technologies, such as Zoom Air, React foam, and Air Max, to provide a comfortable and responsive ride. These technologies help absorb impact and provide energy return.
+                            ike uses various cushioning technologies, such as Zoom Air, React foam, and Air Max, to provide a comfortable and responsive ride. These technologies help absorb impact and provide energy return.
                         </p>
                     </div>
 
-                  
+
                     <div className="flex flex-col md:flex-row md:space-x-8">
                         <div className="mb-6 md:mb-0">
                             <h2 className="text-lg font-semibold mb-2 text-orange-500">Links</h2>
@@ -27,7 +25,7 @@ const Footer = () => {
                             </ul>
                         </div>
 
-                        
+
                         <div>
                             <h2 className="text-lg font-semibold mb-2 text-orange-500">Follow Us</h2>
                             <div className="flex space-x-4">
@@ -40,7 +38,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                
+
                 <div className=" mb-[8rem] border-t border-gray-700 pt-4 text-center">
                     <p className="text-gray-400 text-sm mt-[1rem]">
                         Nike Website. All rights reserved.
