@@ -15,7 +15,7 @@ const testimonies = [
 
 const Testimonies = () => {
   return (
-    <div className="p-6 bg-gray-100 min-h-screen">
+    <div className="p-6 bg-[#e7ecf1] min-h-screen">
       <div className="text-center mt-[25px]">
         <h2 className="text-4xl font-bold text-gray-800">TESTIMONIES</h2>
       </div>

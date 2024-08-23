@@ -9,8 +9,8 @@ function App() {
   return (
     <>
       <NavBar />
-      <Testimonies />
       <ProductFeature />
+      <Testimonies />
       <About />
       <Footer />
     </>

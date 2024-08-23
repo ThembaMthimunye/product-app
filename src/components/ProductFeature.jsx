@@ -1,11 +1,10 @@
-import React from 'react';
 import product from '..//image/product.png';
 import { SiNike } from 'react-icons/si';
 // hackathon Project\src\image\product.png
 
 const ProductFeature = () => {
     return (
-        <div className="p-4 mb-[10rem]  bg-[#e7ecf1] bg-opacity-70" >
+        <div className="p-5   bg-[#e7ecf1] bg-opacity-70" >
             <div className="text-center p-4 ">
                 <div className=''>
                     <SiNike className=" color-black-600 text-[20rem] font-bold text-black ml-[43rem] w-full max-w-sm rounded-lg shadow-lg bg-[white]" />
