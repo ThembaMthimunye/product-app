@@ -11,9 +11,9 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="flex items-center justify-between p-4 bg-white ">
+      <nav className="flex items-center justify-between p-4 bg-white opacity-60">
         <div className="flex items-center flex-1">
-          <h1 className="text-black font-bold text-3xl pl-8">SNEAKER-HUB</h1>
+          <h1 className="text-black font-bold text-3xl pl-8">NIKE</h1>
         </div>
         <ul className="flex space-x-4 flex-1 justify-center relative">
           <li><a href="#home" className="text-black hover:text-gray-300">Home</a></li>
@@ -33,7 +33,7 @@ const NavBar = () => {
               </ul>
             )}
           </li>
-          <li><a href="#contacts" className="text-white hover:text-gray-300">Contacts</a></li>
+          <li><a href="#contacts" className="text-black hover:text-gray-300">Contacts</a></li>
         </ul>
         <div className="flex-1 flex justify-end">
           <button className="bg-black text-white py-2 px-4 rounded">Shop Now</button>
