@@ -1,4 +1,3 @@
-import React from 'react';
 import img1 from '../assets/pic1.jpg';
 import img2 from '../assets/pic2.jpg';
 import img3 from '../assets/pic3.jpg';
@@ -22,7 +21,7 @@ const Testimonies = () => {
       </div>
 
       <div className="flex flex-wrap justify-center items-center gap-6 mt-[55px]">
-        {testimonies.slice(0,4).map(({ id, img, text, name }) => (
+        {testimonies.slice(0, 4).map(({ id, img, text, name }) => (
           <div key={id} className="bg-white p-6 rounded-lg shadow-lg max-w-xs flex flex-col items-center">
             <img src={img} alt={`Testimony ${id}`} className="object-cover rounded-full w-30 h-40 mb-4" />
             <p className="text-gray-600 text-center mt-6">{text}</p>
