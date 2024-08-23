@@ -3,7 +3,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
     return (
         <footer className="bg-white-800 text-black p-8 ">
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto px-5">
                 <div className="flex flex-col md:flex-row md:justify-between">
 
                     <div className="mb-6 md:mb-0">
@@ -39,7 +39,7 @@ const Footer = () => {
                 </div>
 
 
-                <div className=" mb-[8rem] border-t border-gray-700 pt-4 text-center">
+                <div className="border-t border-gray-700 pt-4 text-center">
                     <p className="text-gray-400 text-sm mt-[1rem]">
                         Nike Website. All rights reserved.
                     </p>
